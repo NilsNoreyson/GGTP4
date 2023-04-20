@@ -1,0 +1,33 @@
+name: CityPipe
+fields:
+  - name: pipe_id
+    type: int
+  - name: material
+    type: str
+  - name: diameter
+    type: float
+  - name: length
+    type: float
+  - name: start_coordinates
+    type: Tuple[float, float]
+  - name: end_coordinates
+    type: Tuple[float, float]
+data:
+  - pipe_id: 1
+    material: PVC
+    diameter: 0.5
+    length: 10
+    start_coordinates: [12.34, 56.78]
+    end_coordinates: [23.45, 67.89]
+  - pipe_id: 2
+    material: PVC
+    diameter: 0.75
+    length: 15
+    start_coordinates: [23.45, 67.89]
+    end_coordinates: [34.56, 78.90]
+  - pipe_id: 3
+    material: Steel
+    diameter: 1.0
+    length: 20
+    start_coordinates: [34.56, 78.90]
+    end_coordinates: [45.67, 89.01]
